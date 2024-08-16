@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/Navbar';
 import HeroSection from './Components/HeroSection';
@@ -35,7 +35,7 @@ return isAuthenticated ? element : <Navigate to="/login"/>
         <Routes>
          
           <Route exact path="/home"  element={
-    {  /*  <PrivateRouting  element={    */  }
+            //<PrivateRouting  element={
             <div>
             <HeroSection/>
            
@@ -48,8 +48,10 @@ return isAuthenticated ? element : <Navigate to="/login"/>
        
             </div>
              
-  {  /*  } />   */ }
-        }
+         // } />
+           
+            } 
+          
           />
           
           <Route exact path="/about" element={ 
