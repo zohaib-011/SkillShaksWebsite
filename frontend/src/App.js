@@ -34,7 +34,8 @@ return isAuthenticated ? element : <Navigate to="/login"/>
         <NavBar />
         <Routes>
          
-          <Route exact path="/home"  element={<PrivateRouting  element={
+          <Route exact path="/home"  element={
+    {  /*  <PrivateRouting  element={    */  }
             <div>
             <HeroSection/>
            
@@ -47,7 +48,7 @@ return isAuthenticated ? element : <Navigate to="/login"/>
        
             </div>
              
-          } />
+  {  /*  } />   */ }
         }
           />
           
